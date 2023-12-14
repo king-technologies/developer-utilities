@@ -1,0 +1,46 @@
+[
+    {
+        "Name": "fun",
+        "Definition": "fun is a word in the Kotlin programming language. fun stands for functions. A function is a section of a program that performs a specific task"
+    },
+    {
+        "Name": "fun main",
+        "Definition": "main is the name of this function. Function have names, so they can be distinguished from each other. This function is called main, because it is the first, or main, function that is called when you run the program. Every Kotlin Program needs a function named main."
+    },
+    {
+        "Name": "fun main()",
+        "Definition": "The function name is always followed by () two parentheses. Inside the parentheses, you can put information for the function to use. This input to the function is called \"arguments\" or \"args\" for short. You will learn more about arguments later."
+    },
+    {
+        "Name": "fun main(){}",
+        "Definition": "Notice the pain of curly braces {} after teh parentheses. Inside a function is code that accomplished a task. These curly braces surround those lines of code."
+    },
+    {
+        "Name": "Print",
+        "Definition": "Print tells the system to print a line of text."
+    },
+    {
+        "Name": "Print ln",
+        "Definition": "Print ln tells the system to print a line of text with new line at the end."
+    },
+    {
+        "Name": "var",
+        "Definition": "\"val\" is a special word used by Kotlin called a keyword, indicating that what follows is the name of a variable. It is a changeable keyword"
+    },
+    {
+        "Name": "val",
+        "Definition": "\"val\" is a special word used by Kotlin called a keyword, indicating that what follows is the name of a variable. It is a non-changeable Keyword"
+    },
+    {
+        "Name": "$(variable)",
+        "Definition": "To use a variable inside a print statement, you need to surround it with some symbols that tell the system that what comes next is not text, but a variable."
+    },
+    {
+        "Name": "repeat()",
+        "Definition": "This kind of statement is referred to as a 'Loop' because you are repeating or looping over the same code multiple times. Inside the parentheses () is the number of repetitions, followed by curly braces {}, and inside the curly braces {}, is the code to repeat."
+    },
+    {
+        "Name": "String",
+        "Definition": "A String is a piece of text made up of characters surrounded by quotes. You can think of it as beads lined up on a string to form a necklace, like, characters lined up to form words and text."
+    }
+]
