@@ -34,7 +34,7 @@
     {
         "name": "Dart",
         "description": "Dart is a general-purpose programming language. It is class-based, object-oriented, and implements  high-level language features such as  function  closures,  first-class functions,  and  generic types.",
-        "img": "images/dart.svg",
+        "img": "images/dart.png",
         "subParts": [
             {
                 "name": "Core",
