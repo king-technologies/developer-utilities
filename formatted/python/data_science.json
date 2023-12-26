@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "name": "includes",
+            "lessons": [
+                {
+                    "name": "data_analysis",
+                    "content": "pandas,"
+                },
+                {
+                    "name": "num_py",
+                    "content": ""
+                },
+                {
+                    "name": "data_visualization",
+                    "content": "matplotlib"
+                }
+            ]
+        }
+    ],
+    "version": 1
+}

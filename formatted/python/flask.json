@@ -1,1 +1,18 @@
-{"data":[{"name":"Introduction","lessons":[{"name":"Introduction","content":"Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks. \n\nFlask offers suggestions, but doesn't enforce any dependencies or project layout. It is up to the developer to choose the tools and libraries they want to use. There are many extensions provided by the community that make adding new functionality easy.\n\nFlask is part of the Pallets project. \n\nFlask is BSD licensed, which means it is free to use for both commercial and non-commercial projects."},{"name":"Installation","content":"Install and update using pip:\n\n$ pip install -U Flask"}]}],"version":1}
+{
+    "data": [
+        {
+            "name": "Introduction",
+            "lessons": [
+                {
+                    "name": "Introduction",
+                    "content": "Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks. \n\nFlask offers suggestions, but doesn't enforce any dependencies or project layout. It is up to the developer to choose the tools and libraries they want to use. There are many extensions provided by the community that make adding new functionality easy.\n\nFlask is part of the Pallets project. \n\nFlask is BSD licensed, which means it is free to use for both commercial and non-commercial projects."
+                },
+                {
+                    "name": "Installation",
+                    "content": "Install and update using pip:\n\n$ pip install -U Flask"
+                }
+            ]
+        }
+    ],
+    "version": 1
+}

@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "name": "includes",
+            "lessons": [
+                {
+                    "name": "scikit-learn",
+                    "content": ""
+                },
+                {
+                    "name": "supervised_learning",
+                    "content": ""
+                },
+                {
+                    "name": "neural_networks",
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "version": 1
+}
