@@ -1,1 +1,78 @@
-[{"name":"python","description":"Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.","img":"images/dart.png","subParts":[{"name":"core","description":"Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.","version":1,"img":"images/dart.png"},{"name":"flask","description":"Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.","version":1,"img":"images/dart.png"},{"name":"data_science","description":"","img":"images/dart.png","version":1},{"name":"data_engineering","description":"","img":"images/dart.png","version":1},{"name":"machine_learning","description":"","img":"images/dart.png","version":1}]},{"name":"javaScript","description":"JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.","img":"images/dart.png","subParts":[{"name":"core","description":"JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.","version":1,"img":"images/dart.png"}]},{"name":"dart","description":"Dart is a general-purpose programming language. It is class-based, object-oriented, and implements  high-level language features such as  function  closures,  first-class functions,  and  generic types.","img":"images/dart.png","subParts":[{"name":"core","description":"Dart is a general-purpose programming language. It is class-based, object-oriented, and implements  high-level language features such as  function  closures,  first-class functions,  and  generic types.","version":1,"img":"images/dart.png"},{"name":"flutter","description":"Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, Mac, Windows, Google Fuchsia, and the web from a single codebase.","version":1,"img":"images/dart.png"}]},{"name":"php","description":"PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994.","img":"images/php.svg","subParts":[{"name":"core","description":"PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994.","version":1,"img":"images/dart.png"}]}]
+[
+    {
+        "name": "python",
+        "description": "Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.",
+        "img": "images/python.png",
+        "subParts": [
+            {
+                "name": "core",
+                "description": "Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.",
+                "version": 1,
+                "img": "images/python.png"
+            },
+            {
+                "name": "flask",
+                "description": "Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.",
+                "version": 1,
+                "img": "images/python.png"
+            },
+            {
+                "name": "data_science",
+                "description": "Data science is an inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured data.",
+                "img": "images/python.png",
+                "version": 2
+            },
+            {
+                "name": "machine_learning",
+                "description": "Machine learning is the study of computer algorithms that improve automatically through experience and by the use of data.",
+                "img": "images/python.png",
+                "version": 1
+            }
+        ]
+    },
+    {
+        "name": "javaScript",
+        "description": "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.",
+        "img": "images/javascript.png",
+        "subParts": [
+            {
+                "name": "core",
+                "description": "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.",
+                "version": 1,
+                "img": "images/javascript.png"
+            }
+        ]
+    },
+    {
+        "name": "dart",
+        "description": "Dart is a general-purpose programming language. It is class-based, object-oriented, and implements  high-level language features such as  function  closures,  first-class functions,  and  generic types.",
+        "img": "images/dart.png",
+        "subParts": [
+            {
+                "name": "core",
+                "description": "Dart is a general-purpose programming language. It is class-based, object-oriented, and implements  high-level language features such as  function  closures,  first-class functions,  and  generic types.",
+                "version": 1,
+                "img": "images/dart.png"
+            },
+            {
+                "name": "flutter",
+                "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, Mac, Windows, Google Fuchsia, and the web from a single codebase.",
+                "version": 1,
+                "img": "images/dart.png"
+            }
+        ]
+    },
+    {
+        "name": "php",
+        "description": "PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994.",
+        "img": "images/php.png",
+        "subParts": [
+            {
+                "name": "core",
+                "description": "PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994.",
+                "version": 1,
+                "img": "images/php.png"
+            }
+        ]
+    }
+]

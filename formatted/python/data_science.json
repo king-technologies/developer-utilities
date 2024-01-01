@@ -4,6 +4,16 @@
             "name": "includes",
             "lessons": [
                 {
+                    "name": "jupyter_notebook",
+                    "content": "jupyter_notebook/core.json",
+                    "lessons":[
+                        {
+                            "name": "Cli Commands",
+                            "content": "python/jupyter_notebook/cli.md"
+                        }
+                    ]
+                },
+                {
                     "name": "data_analysis",
                     "content": "pandas,"
                 },

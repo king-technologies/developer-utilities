@@ -1,1 +1,14 @@
-{"data":[{"name":"Basic Concepts","lessons":[{"name":"Welcome to Python","content":"Welcome to Python! This is a Python tutorial for beginners. It will teach you the basics of Python and programming in general."}]}],"version":1}
+{
+    "data": [
+        {
+            "name": "Basic Concepts",
+            "lessons": [
+                {
+                    "name": "Welcome to Python",
+                    "content": "Welcome to Python! This is a Python tutorial for beginners. It will teach you the basics of Python and programming in general."
+                }
+            ]
+        }
+    ],
+    "version": 1
+}
