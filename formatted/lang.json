@@ -1,5 +1,30 @@
 [
     {
+        "name": "android",
+        "description": "Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets.",
+        "img": "images/android.png",
+        "subParts": [
+            {
+                "name": "core",
+                "description": "Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets.",
+                "version": 1,
+                "img": "images/android.png"
+            },
+            {
+                "name": "jetpack",
+                "description": "Android Jetpack is a set of libraries, tools and architectural guidance to help make it quick and easy to build great Android apps.",
+                "version": 1,
+                "img": "images/android.png"
+            },
+            {
+                "name": "kotlin",
+                "description": "Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library.",
+                "version": 1,
+                "img": "images/android.png"
+            }
+        ]
+    },
+    {
         "name": "python",
         "description": "Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.",
         "img": "images/python.png",
