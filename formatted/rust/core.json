@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "name": "Rust Installation",
+            "lessons": [
+                {
+                    "name": "Welcome to Rust",
+                    "content": "Welcome to Rust",
+                    "lessons": [
+                        {
+                            "name": "Introduction to Rust",
+                            "content": "rust/intro.md"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "version": 1
+}

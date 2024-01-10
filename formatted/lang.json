@@ -1,5 +1,30 @@
 [
     {
+        "name": "rust",
+        "description": "Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references.",
+        "img": "images/rust.png",
+        "subParts": [
+            {
+                "name": "core",
+                "description": "Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references.",
+                "version": 1,
+                "img": "images/rust.png"
+            },
+            {
+                "name": "webAssembly",
+                "description": "WebAssembly is an open standard that defines a portable binary-code format for executable programs, and a corresponding textual assembly language, as well as interfaces for facilitating interactions between such programs and their host environment.",
+                "version": 1,
+                "img": "images/rust.png"
+            },
+            {
+                "name": "cargo",
+                "description": "Cargo is a package manager for Rust that enables you to build, test, and manage Rust projects. Cargo downloads your Rust package’s dependencies, compiles your packages, makes distributable packages, and uploads them to crates.io, the Rust community’s package registry.",
+                "version": 1,
+                "img": "images/rust.png"
+            }
+        ]
+    },
+    {
         "name": "android",
         "description": "Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets.",
         "img": "images/android.png",
