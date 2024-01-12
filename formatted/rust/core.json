@@ -5,13 +5,7 @@
             "lessons": [
                 {
                     "name": "Welcome to Rust",
-                    "content": "Welcome to Rust",
-                    "lessons": [
-                        {
-                            "name": "Introduction to Rust",
-                            "content": "rust/intro.md"
-                        }
-                    ]
+                    "content": "rust/intro.md"
                 }
             ]
         }
