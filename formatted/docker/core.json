@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "name": "Docker Basics",
+            "lessons": [
+                {
+                    "name": "Welcome to Docker",
+                    "content": "docker/intro.md"
+                }
+            ]
+        }
+    ],
+    "version": 1
+}

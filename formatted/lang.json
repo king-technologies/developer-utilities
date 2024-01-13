@@ -1,5 +1,18 @@
 [
     {
+        "name": "docker",
+        "description": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files.",
+        "img": "images/docker.png",
+        "subParts": [
+            {
+                "name": "core",
+                "description": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files.",
+                "version": 1,
+                "img": "images/docker.png"
+            }
+        ]
+    },
+    {
         "name": "rust",
         "description": "Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references.",
         "img": "images/rust.png",
