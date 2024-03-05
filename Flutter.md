@@ -189,3 +189,36 @@ jobs:
 ## Subscriptions
 
 [RevenueCat]([https://](https://app.revenuecat.com))
+
+
+## Docker
+
+### Simple Node serve for static files
+
+<!-- File Structure -->
+
+```
+web
+    - index.html
+    - main.js
+    - style.css
+Dockerfile
+```
+
+
+```Dockerfile
+FROM node:lts-alpine
+RUN npm -y -g install serve
+WORKDIR /app/
+COPY . .
+
+EXPOSE 3000
+CMD ["serve", "web"]
+```
+
+<!-- Build image using dockerfile -->
+- docker build -t my_docker_image -f .\Dockerfile .
+<!-- Run the image -->
+- docker run -d -p 8080:8080 my_docker_image
+
+
