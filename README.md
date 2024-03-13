@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Rohit19060/Developer-Utilities/blob/main/Emoji.md" title="Developer Utilities">
-    <img src="https://kingtechnologies.in/assets/images/Logo.webp" width="80px" alt="Developer Utilities"/>
+    <img src="https://raw.githubusercontent.com/king-technologies/developer-utilities/main/images/king_tech.png" width="80px" alt="Developer Utilities"/>
   </a>
 </p>
 <h1 align="center">🌟 Developer Utilities 🌟</h1>
