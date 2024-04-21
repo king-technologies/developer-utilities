@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "name": "Command Line",
+            "lessons": [
+                {
+                    "name": "Commands",
+                    "content": "rust/commands/cli.md"
+                }
+            ]
+        }
+    ],
+    "version": 1
+}

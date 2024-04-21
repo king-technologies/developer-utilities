@@ -10,3 +10,8 @@
 - build documentation for your project with `cargo doc`
 - publish a library to [Crates](https://crtates.io) with `cargo publish`
 - Check version `cargo --versions`
+
+## Switch Between Rust Versions
+
+- `rustup default nightly`
+- `rustup default stable`

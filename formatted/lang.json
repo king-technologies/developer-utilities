@@ -34,6 +34,12 @@
                 "description": "Cargo is a package manager for Rust that enables you to build, test, and manage Rust projects. Cargo downloads your Rust package’s dependencies, compiles your packages, makes distributable packages, and uploads them to crates.io, the Rust community’s package registry.",
                 "version": 1,
                 "img": "images/rust.png"
+            },
+            {
+                "name": "commands",
+                "description": "Cargo is a package manager for Rust that enables you to build, test, and manage Rust projects. Cargo downloads your Rust package’s dependencies, compiles your packages, makes distributable packages, and uploads them to crates.io, the Rust community’s package registry.",
+                "version": 1,
+                "img": "images/rust.png"
             }
         ]
     },
