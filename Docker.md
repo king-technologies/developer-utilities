@@ -24,7 +24,7 @@ docker run -it -p 3000:3000 -v $(pwd):/app/ node:lts-alpine
 # stop a container
 docker stop <container_id>
 
-# Start a container
+# Start a **container**
 docker start <container_id>
 
 # Start a container with different ports
@@ -76,8 +76,13 @@ docker exec -it <container_id> /bin/bash
 # COPY --from=builder /app/build /usr/share/nginx/html
 
 
-# Docker connet to a container with iteractive mode
+# Docker connect to a container with interactive mode
 docker exec -it <container_id> /bin/bash
+
+
+# Create a container from a docker file
+docker build -t your-image-name .
+docker run -d -p 3000:3000 your-image-name
 ```
 
 ## Working with PostgreSQL

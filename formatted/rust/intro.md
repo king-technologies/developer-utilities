@@ -33,3 +33,29 @@ fn main() {
 - This code uses the println! macro to print a string to the screen.
 - Rust style is to indent with four spaces, not a tab.
 - Rust code uses snake case as the conventional style for function and variable names.
+
+## Cargo Watch
+
+- First you have to install cargo-watch by running the following command:
+
+```bash
+cargo install cargo-watch
+```
+
+- Then you can use cargo-watch to automatically recompile your code when it changes:
+
+```bash
+cargo watch -x run
+# or
+cargo watch -q -c -x run # quiet, clear, execute, run
+# or
+cargo watch -q -c -x "run -q" # quiet, clear, execute, run quietly
+# or
+cargo watch -x 'run --release' # run in release mode
+# or build in release mode with file watching
+cargo watch -x 'build --release'
+
+```
+
+- This will run the `cargo run` command every time a file in your project changes.
+- You can also use `cargo watch -x test` to run the tests every time a file changes.
