@@ -49,7 +49,6 @@ appdmg config.json Flutter.dmg
 
 - Nice_intro
 - Animations
-- Google Fonts
 - Modern Text Theming
 - Fast Start
 - New networking tool
@@ -60,9 +59,9 @@ appdmg config.json Flutter.dmg
 ## Responsiveness
 
 ```Dart
-const double _kListItemExtent = 50.0;
-const double _kMaxTimeWidth = 150.0;
-const double _kGridViewBreakPoint = 550.0;
+const   _kListItemExtent = 50.0;
+const   _kMaxTimeWidth = 150.0;
+const   _kGridViewBreakPoint = 550.0;
 
 class AdaptiveContainer extends StatelessWidget{
     const AdaptiveContainer({Key key, this.names}):super(key:key);
@@ -122,8 +121,8 @@ OrientationBuilder(
 
 ## Payments
 
-- Razerpay
 - Stripe
+- Razerpay
 - cashfree
 - paytm
 - paypal
@@ -222,3 +221,17 @@ CMD ["serve", "web"]
 - docker run -d -p 8080:8080 my_docker_image
 
 
+Currently, the supported version ranges are as follows:
+
+Gradle — Fully supported 7.0.2 to current, warn otherwise
+AGP — Fully supported 7.0.0 to current, warn otherwise
+Java — Fully supported Java 11 to current, warn otherwise
+Kotlin — Fully supported 1.5.0 to current, warn otherwise
+In the next major release these warnings will become errors, which can be overridden with the flag `--android-skip-build-dependency-validation`
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png) 

@@ -286,12 +286,7 @@ function doSomething() {
 
 React Libraries
 
-- Redux
-- MobX
-- Rx
-- Flux
-- Relay
-- Apollo
+![alt text](image-6.png)
 
 ## Express to heroku
 
