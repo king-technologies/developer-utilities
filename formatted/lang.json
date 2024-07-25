@@ -141,6 +141,12 @@
                 "description": "PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994.",
                 "version": 1,
                 "img": "images/php.png"
+            },
+            {
+                "name": "Laravel",
+                "description": "Laravel is a web application framework with expressive, elegant syntax. Laravel lets you quickly write powerful web applications with minimal code.",
+                "version": 1,
+                "img": "images/php.png"
             }
         ]
     }

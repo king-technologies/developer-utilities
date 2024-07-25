@@ -1,0 +1,18 @@
+{
+    "data": [
+        {
+            "name": "Introduction",
+            "lessons": [
+                {
+                    "name": "Welcome to Laravel",
+                    "content": "php/laravel/intro.md"
+                },
+                {
+                    "name": "Eloquent",
+                    "content": "php/laravel/eloquent.md"
+                }
+            ]
+        }
+    ],
+    "version": 2
+}
