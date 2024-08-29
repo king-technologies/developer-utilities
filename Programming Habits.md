@@ -23,6 +23,6 @@
 ## Touch it once
 
 - I'll fix it later. Yep we've all heard that before. And we all know how often things got fixed "later". You're right. Never. Every time you see a TODO comment you know someone failed to touch it once
-- WOrk on a piece of code or user story form zero till it's completely finished.
+- Work on a piece of code or user story form zero till it's completely finished.
 - But what does completely finished mean?
 - It means that your code is refactored, for a start. Just like we discussed before. On top of that, your code needs to be tested. And testing is for most developers probably the least favorite part of their job. write some automated test.
