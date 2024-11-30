@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Which of the following best defines Next.js?",
+        "options": [
+            "A) A purely client-side rendering framework based on React",
+            "B) A React-based framework supporting server-side rendering and static site generation",
+            "C) A full-stack framework built for backend applications only",
+            "D) A performance-oriented CSS framework"
+        ],
+        "answer": "B",
+        "explanation": "Next.js is a React-based framework designed for server-side rendering (SSR) and static site generation (SSG), which enhances SEO and performance."
+    },
+    {
+        "question": "Which of these is NOT a primary benefit of using Next.js?",
+        "options": [
+            "A) Server-side rendering for improved SEO",
+            "B) Dynamic API routes for handling server-side logic",
+            "C) A required configuration for client-side navigation",
+            "D) TypeScript support for better code quality"
+        ],
+        "answer": "C",
+        "explanation": "Next.js automatically handles client-side navigation without needing any specific configuration."
+    },
+    {
+        "question": "What’s the key difference between SSR (Server-Side Rendering) and SSG (Static Site Generation) in Next.js?",
+        "options": [
+            "A) SSR fetches data at build time, SSG does it per request",
+            "B) SSR renders pages on the client, SSG renders them on the server",
+            "C) SSR renders pages on each request, while SSG pre-builds them at build time",
+            "D) SSR cannot be used with dynamic content, while SSG is suitable for any type of content"
+        ],
+        "answer": "C",
+        "explanation": "SSR renders content dynamically on each request, while SSG pre-builds static content at build time, improving performance for non-dynamic content."
+    },
+    {
+        "question": "How does TypeScript improve development with Next.js?",
+        "options": [
+            "A) It ensures every file is dynamically typed for flexibility",
+            "B) It forces developers to use the latest ECMAScript features",
+            "C) It provides static typing, which reduces runtime errors and improves code quality",
+            "D) It is required to manage global CSS"
+        ],
+        "answer": "C",
+        "explanation": "TypeScript adds static typing to JavaScript, helping catch errors early and improving code quality and maintainability."
+    },
+    {
+        "question": "How does routing work in Next.js?",
+        "options": [
+            "A) All routes must be manually defined in a configuration file",
+            "B) Routes are defined by the file names in the pages/ directory, with dynamic routes handled using bracket syntax",
+            "C) Next.js does not support dynamic routing",
+            "D) Routing is automatically generated based on package.json settings"
+        ],
+        "answer": "B",
+        "explanation": "Next.js uses a file-based routing system where the file name determines the route. Dynamic routes are created using brackets (e.g., [id].js)."
+    },
+    {
+        "question": "What is the purpose of API routes in Next.js?",
+        "options": [
+            "A) To enable client-side rendering exclusively",
+            "B) To fetch static data during the build process",
+            "C) To create backend APIs directly within a Next.js application using the pages/api/ directory",
+            "D) To configure client-side state management"
+        ],
+        "answer": "C",
+        "explanation": "API routes allow developers to create server-side functions within the pages/api/ directory, functioning like serverless APIs."
+    },
+    {
+        "question": "What is the main difference between getStaticProps and getServerSideProps in Next.js?",
+        "options": [
+            "A) getStaticProps fetches data at runtime, while getServerSideProps fetches at build time",
+            "B) getStaticProps runs during the build process, while getServerSideProps runs on every request",
+            "C) getStaticProps only works for API routes, while getServerSideProps is for client-side use",
+            "D) getStaticProps is used for server-side rendering, while getServerSideProps handles static content"
+        ],
+        "answer": "B",
+        "explanation": "getStaticProps is used to fetch data at build time for static pages, while getServerSideProps fetches data on each request for server-side rendering."
+    },
+    {
+        "question": "What is the advantage of Incremental Static Regeneration (ISR) in Next.js?",
+        "options": [
+            "A) It only allows regenerating the entire site",
+            "B) It enables updating specific static pages after the build without regenerating the whole site",
+            "C) It eliminates the need for any server-side code",
+            "D) It allows using only client-side data fetching"
+        ],
+        "answer": "B",
+        "explanation": "ISR allows updating or regenerating individual static pages after the initial build, without rebuilding the entire site."
+    },
+    {
+        "question": "Which of the following CSS handling methods is NOT natively supported by Next.js?",
+        "options": [
+            "A) Global CSS imports",
+            "B) CSS Modules for scoped styling",
+            "C) Inline styles using the style attribute",
+            "D) SCSS without any configuration"
+        ],
+        "answer": "D",
+        "explanation": "Next.js natively supports global CSS, CSS Modules, and styled-jsx, but SCSS requires an additional package to be installed."
+    },
+    {
+        "question": "What is the role of _app.js in a Next.js project?",
+        "options": [
+            "A) It sets up the main navigation between pages",
+            "B) It wraps around every page, allowing shared logic like global styles or layout persistence",
+            "C) It manages server-side rendering for the entire app",
+            "D) It handles client-side caching"
+        ],
+        "answer": "B",
+        "explanation": "_app.js is used for wrapping global layouts, shared state, or global styles across all pages in a Next.js application."
+    },
+    {
+        "question": "When should dynamic imports be used in a Next.js application?",
+        "options": [
+            "A) For importing stylesheets globally",
+            "B) For loading images at build time",
+            "C) For optimizing performance by splitting code and loading components only when needed",
+            "D) For managing static page generation"
+        ],
+        "answer": "C",
+        "explanation": "Dynamic imports are useful for code-splitting and lazy-loading components, improving the performance of your app by only loading what’s necessary at runtime."
+    },
+    {
+        "question": "How does Next.js handle image optimization?",
+        "options": [
+            "A) By serving images in their original format",
+            "B) Through a manual image processing pipeline",
+            "C) By using the next/image component, which automatically optimizes images by resizing, lazy loading, and serving the best format",
+            "D) By disabling image optimizations for server-side rendering"
+        ],
+        "answer": "C",
+        "explanation": "The next/image component in Next.js automatically optimizes images for performance, handling lazy loading, resizing, and selecting the optimal format."
+    },
+    {
+        "question": "How can you set up a redirect in Next.js?",
+        "options": [
+            "A) By using the redirect function inside the page component",
+            "B) By adding redirect rules in the next.config.js file under the redirects key",
+            "C) By writing a custom server to handle all redirects",
+            "D) By using the useEffect hook to manually handle redirections on the client side"
+        ],
+        "answer": "B",
+        "explanation": "Redirects in Next.js can be configured using the redirects function inside the next.config.js file, which can be defined as permanent or temporary."
+    },
+    {
+        "question": "What is the purpose of middleware in Next.js?",
+        "options": [
+            "A) To handle client-side data fetching",
+            "B) To execute code before requests are completed, such as modifying responses or redirecting requests",
+            "C) To optimize image loading on the client-side",
+            "D) To manage API routes"
+        ],
+        "answer": "B",
+        "explanation": "Middleware in Next.js allows you to run code before a response is completed, which can be used for tasks like redirection, logging, or modifying requests."
+    },
+    {
+        "question": "Which of the following best explains the differences between Next.js and CRA (Create React App)?",
+        "options": [
+            "A) Next.js focuses on client-side rendering, while CRA provides server-side rendering",
+            "B) Next.js provides server-side rendering, static site generation, and built-in API routes, whereas CRA is primarily for client-side rendering",
+            "C) CRA is primarily used for full-stack applications, while Next.js is only for static sites",
+            "D) Both frameworks are identical in terms of SSR and static optimization"
+        ],
+        "answer": "B",
+        "explanation": "Next.js provides SSR, SSG, and API routes, making it more powerful for larger applications with advanced features. CRA is primarily focused on client-side rendering."
+    }
+]

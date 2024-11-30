@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "question": "What is Next.js?",
+        "answer": "Next.js is an open-source React-based framework developed by Vercel that simplifies building web applications by offering features like server-side rendering (SSR) and static site generation (SSG). These features enhance SEO and improve page load speeds. Next.js is built on top of React, Webpack, and Babel, making it a powerful tool for both SSR and client-side rendering (CSR) applications. It also provides utilities for data fetching, dynamic API routes, and optimized builds, which streamline development and improve performance."
+    },
+    {
+        "id": 2,
+        "question": "What are the benefits of using Next.js?",
+        "answer": "The benefits of using Next.js are as follows:\n1. Server-side rendering: Next.js provides a fast and efficient way to render pages on the server-side, which makes the page load time faster.\n2. Enhanced SEO: Next.js has built-in features such as server-side rendering and dynamic routing, which helps improve the SEO of the website.\n3. Optimized builds: Next.js has built-in features such as code splitting, which helps improve the performance of the website.\n4. Data fetching utilities: Next.js provides a built-in data fetching utility called getServerSideProps, which allows you to fetch data on the server-side and pass it to the client-side.\n5. Dynamic API routes: Next.js allows you to create dynamic API routes, which allow you to create endpoints that return data based on the request parameters.\n6. Built-in routing: Next.js has a built-in routing system that allows you to create routes for your pages.\n7. TypeScript support: Next.js has built-in support for TypeScript, which makes it easier to write type-safe code.\n8. Ecosystem: Next.js has a large ecosystem of plugins and libraries that make it easier to build complex web applications.\n9. Community support: Next.js has a large community of developers who contribute to the project and provide support.\n10. Great developer experience: Next.js has a great developer experience, which makes it easier for developers to build and deploy applications.\nOverall, Next.js is a powerful framework that provides a lot of benefits for building web applications."
+    },
+    {
+        "id": 3,
+        "question": "What is the difference between SSR and SSG in Next.js?",
+        "answer": "SSR (Server-Side Rendering) renders pages on each request, while SSG (Static Site Generation) pre-builds pages at build time. SSR offers dynamic content but can be slower due to server processing. SSG is faster as it pre-renders static content but is less dynamic unless revalidated."
+    },
+    {
+        "id": 4,
+        "question": "What are the advantages of using TypeScript with Next.js?",
+        "answer": "TypeScript is a statically typed programming language that provides better code quality and helps catch errors earlier in the development process. Using TypeScript with Next.js provides the following advantages:\n1. Better code quality: TypeScript provides better code quality by catching errors and providing auto-completion.\n2. Easier debugging: TypeScript provides better debugging capabilities by providing type information and error messages.\n3. Better collaboration: TypeScript makes it easier for developers to collaborate as it provides a common language for the team.\n4. Better maintainability: TypeScript makes it easier to maintain the code as it provides a better structure and organization.\n5. Better scalability: TypeScript makes it easier to scale the application as it provides a better architecture and modularity.\nOverall, using TypeScript with Next.js provides a better developer experience and helps catch errors earlier in the development process."
+    },
+    {
+        "id": 5,
+        "question": "How does routing work in Next.js?",
+        "answer": "Next.js uses a file-based routing system where the file name in the pages/app directory corresponds to the route."
+    },
+    {
+        "id": 6,
+        "question": "What are Next.js API routes?",
+        "answer": "API routes allow you to create server-side APIs within a Next.js app using files in the pages/api/ directory."
+    },
+    {
+        "id": 7,
+        "question": "What is the getStaticProps function in Next.js?",
+        "answer": "getStaticProps is a function used in SSG to fetch data at build time. It runs at build time and passes the fetched data as props to the page, making the page static and fast to load."
+    },
+    {
+        "id": 8,
+        "question": "What is getServerSideProps?",
+        "answer": "getServerSideProps is used to fetch data on every request, enabling SSR. Unlike getStaticProps, which fetches data at build time, getServerSideProps runs on every request, ensuring fresh data but with potentially longer load times."
+    },
+    {
+        "id": 9,
+        "question": "What is Incremental Static Regeneration (ISR)?",
+        "answer": " ISR allows updating static content after the site is built, without rebuilding the entire site. With ISR, Next.js can rebuild specific pages at runtime when requested and update them without full rebuilds, ensuring fresh content."
+    },
+    {
+        "id": 10,
+        "question": "How does Next.js handle CSS and styling?",
+        "answer": "Next.js supports global CSS, CSS Modules, and styled-jsx. You can import global styles in _app.js, use CSS Modules for component-level styles, or styled-jsx for scoped CSS, which are integrated into the framework."
+    },
+    {
+        "id": 11,
+        "question": "What is the purpose of _app.js in Next.js?",
+        "answer": "_app.js is a custom App component that wraps around every page in your Next.js application. It’s used to maintain state or functionality that should persist across all pages, like global styles, layout components, or data fetching for common elements."
+    },
+    {
+        "id": 12,
+        "question": "How do static and dynamic imports work in Next.js?",
+        "answer": "Static imports load modules at build time, while dynamic imports load them at runtime. Dynamic imports (import('module')) can improve performance by splitting code and only loading what's needed when it's needed, helpful for lazy loading components."
+    },
+    {
+        "id": 13,
+        "question": "How is image optimization handled in Next.js?",
+        "answer": "Next.js has built-in image optimization using the next/image component. It automatically optimizes images by serving them in the best format, compressing, and enabling lazy loading to improve performance."
+    },
+    {
+        "id": 14,
+        "question": "How do you configure redirects in Next.js?",
+        "answer": "You can define redirects using the redirects() function inside next.config.js, which can be either permanent or temporary."
+    },
+    {
+        "id": 15,
+        "question": "What is the role of middleware in Next.js?",
+        "answer": "Middleware allows executing code before a request is completed.  It’s useful for modifying the response or redirecting requests conditionally. Middleware is executed at the edge, meaning it can run in locations closer to the user, improving performance."
+    },
+    {
+        "id": 16,
+        "question": "What are the differences between Next.js and CRA (Create React App)?",
+        "answer": "Next.js supports SSR, SSG, routing, and API routes, while CRA is primarily focused on client-side rendering (CSR). Next.js provides more advanced features for performance and SEO optimization, while CRA is simpler but lacks SSR/SSG, making it better suited for smaller apps or SPAs."
+    },
+    {
+        "id": 17,
+        "question": "How does static generation differ from client-side rendering?",
+        "answer": "Static generation pre-builds pages at build time, while client-side rendering fetches data and renders pages in the browser. Static generation is faster since the HTML is pre-rendered and doesn't rely on client-side JavaScript to build the page, whereas client-side rendering can be slower as it relies on fetching and rendering on the client."
+    },
+    {
+        "id": 18,
+        "question": "What is the next/link component?",
+        "answer": "next/link is used for client-side navigation between routes in a Next.js app. It pre-fetches the page you’re linking to for faster transitions, making navigation more efficient than traditional anchor tags."
+    },
+    {
+        "id": 19,
+        "question": "How do environment variables work in Next.js?",
+        "answer": "Environment variables are stored in .env.local, and those prefixed with NEXT_PUBLIC_ are exposed to the client. Sensitive data should not be exposed, and only variables with the NEXT_PUBLIC_ prefix are safe for client-side use."
+    },
+    {
+        "id": 20,
+        "question": "Explain the next/head component.",
+        "answer": "The next/head component is used to modify the document head, like adding meta tags, titles, and styles. It’s essential for SEO, as you can dynamically set metadata for individual pages, improving their searchability."
+    },
+    {
+        "id": 21,
+        "question": "How does Next.js handle data fetching on the client side?",
+        "answer": "Next.js allows data fetching on the client side using standard React hooks like useEffect or libraries like SWR (Stale While Revalidate). SWR is often recommended for client-side data fetching as it supports revalidation, caching, and real-time updates."
+    },
+    {
+        "id": 22,
+        "question": "How Next is different from other JavaScript frameworks?",
+        "answer": "Next.js is a JavaScript framework that is primarily designed for building React applications. Here are some key ways in which Next JS differs from other JavaScript frameworks: \n\nServer-Side Rendering (SSR): One of the significant distinctions of Next JS is its built-in support for server-side rendering. This allows pages to be rendered on the server rather than the client, providing benefits like improved SEO and faster initial page loads.\nAutomatic Code Splitting: Next.js automatically splits the JavaScript code into smaller chunks, allowing for efficient loading of only the necessary code for a particular page.\nAPI Routes: Next.js makes it easy to create API routes within the same project, simplifying the development of backend functionality alongside the frontend.\nBuilt-in Image Optimization: The next/image component provides built-in support for image optimization, handling tasks like lazy loading and responsive images without the need for additional configuration.\nEasy Deployment: Next.js simplifies the deployment process with various options, including static site hosting, serverless deployment, and more. This ease of deployment is not always as straightforward in other frameworks."
+    },
+    {
+        "id": 23,
+        "question": "How does Next JS handle client-side navigation?",
+        "answer": "Next.js uses a client-side navigation approach that leverages the HTML5 History API. This enables smooth transitions between pages on the client side without a full page reload. The framework provides a built-in Link component that facilitates client-side navigation, and it supports both traditional anchor (<a>) tags and programmatically navigating through the next/router module.\n\nHere’s an overview of how Next.js handles client-side navigation:\n\nLink Component:\n\nThe Link component is a core part of client-side navigation in Next.js. It is used to create links between pages in your application.\nUsing the Link component, when users click the link, Next.js intercepts the navigation event and fetches the necessary resources for the new page without triggering a full page reload."
+    }
+]

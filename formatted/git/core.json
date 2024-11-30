@@ -1,0 +1,23 @@
+{
+    "data": [
+        {
+            "name": "Basic Concepts",
+            "lessons": [
+                {
+                    "name": "Welcome to Git",
+                    "content": "Welcome to Git! This is a Git tutorial for beginners. It will teach you the basics of Git and version control in general."
+                }
+            ]
+        },
+        {
+            "name": "Commands",
+            "lessons": [
+                {
+                    "name": "Commands",
+                    "content": "git/commands.md"
+                }
+            ]
+        }
+    ],
+    "version": 1
+}
