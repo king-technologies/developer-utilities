@@ -56,6 +56,10 @@ git log --oneline  # Displays commit history in a compact format.
 ```bash
 git push              # Pushes changes to the default remote and branch.
 git push origin <branch-name>  # Pushes changes to the specified branch on the remote repository.
+git push -u origin <branch-name>  # Pushes changes to the specified branch and sets it as the default upstream branch.
+git push --force      # Forces the push to the remote repository.
+git push origin head  # Pushes the current branch to the remote repository.
+git push --set-upstream origin <branch-name>  # Pushes changes to the specified branch and sets it as the default upstream branch.
 ```
 
 
@@ -85,6 +89,7 @@ git branch -d <branch-name>  # Deletes the specified branch.
 git checkout <branch-name>       # Switches to the specified branch.
 git checkout -b <branch-name>    # Creates and switches to a new branch.
 git checkout -- <file>           # Discards changes to the specified file in the working directory.
+git checkout <branch-name> -- <file>  # Restores the specified file from the specified branch.
 ```
 
 
@@ -111,6 +116,12 @@ git remote remove <name>      # Removes the specified remote.
 **Example:**  
 ```bash
 git fetch  # Downloads data from the remote repository.
+git fetch origin # Downloads data from the remote repository named 'origin'.
+git fetch --all  # Downloads data from all remotes.
+git fetch origin <branch-name>  # Downloads data from the specified branch.
+git fetch --prune  # Removes remote tracking branches that no longer exist on the remote.
+git fetch --tags  # Downloads all tags from the remote repository.
+git fetch --dry-run  # Simulates fetching data without actually downloading it.
 ```
 
 
@@ -129,6 +140,8 @@ git reset --hard <commit-hash>  # Moves HEAD to the commit, discarding changes. 
 **Example:**  
 ```bash
 git rebase <branch-name>  # Rebases the current branch onto the specified branch.
+git rebase --continue     # Continues the rebase after resolving conflicts.
+git rebase --abort        # Aborts the rebase operation and resets the branch to its original state.
 ```
 
 
@@ -143,7 +156,7 @@ git tag -d <tag-name>       # Deletes the specified tag.
 
 
 ## `git stash`
-**Definition:** Stashes changes in the working directory.
+**Definition:** Stashes changes in the working directory. Stash is not directly associated with any branch. Stashes are stored in a separate list and are global to the entire repository i.e. they can be applied or popped onto any branch.
 **Example:**  
 ```bash
 git stash           # Stashes changes in the working directory.
