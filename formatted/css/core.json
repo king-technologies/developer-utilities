@@ -1,0 +1,23 @@
+{
+    "data": [
+        {
+            "name": "Basic Concepts",
+            "lessons": [
+                {
+                    "name": "Welcome to CSS",
+                    "content": "Welcome to CSS! This is a CSS tutorial for beginners. It will teach you the basics of CSS and styling in general."
+                }
+            ]
+        },
+        {
+            "name": "Tailwind CSS",
+            "lessons": [
+                {
+                    "name": "Tailwind CSS",
+                    "content": "css/tailwind.md"
+                }
+            ]
+        }
+    ],
+    "version": 1
+}

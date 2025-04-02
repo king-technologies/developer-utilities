@@ -1,0 +1,23 @@
+{
+    "data": [
+        {
+            "name": "Introduction",
+            "lessons": [
+                {
+                    "name": "Introduction",
+                    "content": "typescript/typescript/intro.md"
+                }
+            ]
+        },
+        {
+            "name": "satisfies",
+            "lessons": [
+                {
+                    "name": "Introduction",
+                    "content": "typescript/typescript/satisfies.md"
+                }
+            ]
+        }
+    ],
+    "version": 1
+}

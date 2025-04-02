@@ -196,7 +196,7 @@ background:blue;
 }
 
 .my-list li:nth-child(even){
-background:blue; 
+background:blue;
 }
 ```
 
@@ -207,5 +207,30 @@ background:blue;
    :root{
      color-scheme:light dark;
    }
+}
+```
+
+## Modular CSS
+
+- Create a file named as `style.module.css` and import it in your component file.
+
+```CSS
+/* style.module.css */
+.container{
+  width:100%;
+  margin:0 auto;
+}
+```
+
+```JSX
+// component.jsx
+import styles from './style.module.css';
+
+function Component(){
+  return(
+    <div className={styles.container}>
+      <h1>Component</h1>
+    </div>
+  )
 }
 ```

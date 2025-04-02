@@ -1,0 +1,23 @@
+{
+    "data": [
+        {
+            "name": "Introduction",
+            "lessons": [
+                {
+                    "name": "Introduction",
+                    "content": "javascript/nextjs/intro.md"
+                }
+            ]
+        },
+        {
+            "name": "Link Component",
+            "lessons": [
+                {
+                    "name": "Introduction",
+                    "content": "javascript/nextjs/link.md"
+                }
+            ]
+        }
+    ],
+    "version": 1
+}

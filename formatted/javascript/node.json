@@ -1,0 +1,23 @@
+{
+    "data": [
+        {
+            "name": "Introduction",
+            "lessons": [
+                {
+                    "name": "Introduction",
+                    "content": "javascript/node/intro.md"
+                }
+            ]
+        },
+        {
+            "name": "DNS",
+            "lessons": [
+                {
+                    "name": "Introduction",
+                    "content": "javascript/node/dns.md"
+                }
+            ]
+        }
+    ],
+    "version": 1
+}

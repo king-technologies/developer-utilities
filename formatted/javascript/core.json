@@ -1,4 +1,14 @@
 {
-    "data": [],
+    "data": [
+        {
+            "name": "vanilla_javascript",
+            "lessons": [
+                {
+                    "name": "Introduction",
+                    "content": "javascript/introduction.md"
+                }
+            ]
+        }
+    ],
     "version": 1
 }

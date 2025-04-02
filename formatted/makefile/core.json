@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "name": "Introduction",
+            "lessons": [
+                {
+                    "name": "Welcome to Makefile",
+                    "content": "makefile/intro.md"
+                }
+            ]
+        }
+    ],
+    "version": 2
+}

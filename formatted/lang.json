@@ -1,166 +1,280 @@
 [
-    {
-        "name": "Git",
+  {
+    "name": "git",
+    "description": "Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.",
+    "img": "images/git.png",
+    "subParts": [
+      {
+        "name": "core",
         "description": "Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.",
-        "img": "images/git.png",
-        "subParts": [
-            {
-                "name": "core",
-                "description": "Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.",
-                "version": 1,
-                "img": "images/git.png"
-            }
-        ]
-    },
-    {
-        "name": "docker",
+        "version": 1,
+        "img": "images/git.png"
+      }
+    ]
+  },
+  {
+    "name": "docker",
+    "description": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files.",
+    "img": "images/docker.png",
+    "subParts": [
+      {
+        "name": "core",
         "description": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files.",
-        "img": "images/docker.png",
-        "subParts": [
-            {
-                "name": "core",
-                "description": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files.",
-                "version": 1,
-                "img": "images/docker.png"
-            }
-        ]
-    },
-    {
-        "name": "rust",
+        "version": 1,
+        "img": "images/docker.png"
+      }
+    ]
+  },
+  {
+    "name": "rust",
+    "description": "Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references.",
+    "img": "images/rust.png",
+    "subParts": [
+      {
+        "name": "core",
         "description": "Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references.",
-        "img": "images/rust.png",
-        "subParts": [
-            {
-                "name": "core",
-                "description": "Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references.",
-                "version": 1,
-                "img": "images/rust.png"
-            },
-            {
-                "name": "webAssembly",
-                "description": "WebAssembly is an open standard that defines a portable binary-code format for executable programs, and a corresponding textual assembly language, as well as interfaces for facilitating interactions between such programs and their host environment.",
-                "version": 1,
-                "img": "images/rust.png"
-            },
-            {
-                "name": "cargo",
-                "description": "Cargo is a package manager for Rust that enables you to build, test, and manage Rust projects. Cargo downloads your Rust package’s dependencies, compiles your packages, makes distributable packages, and uploads them to crates.io, the Rust community’s package registry.",
-                "version": 1,
-                "img": "images/rust.png"
-            },
-            {
-                "name": "commands",
-                "description": "Cargo is a package manager for Rust that enables you to build, test, and manage Rust projects. Cargo downloads your Rust package’s dependencies, compiles your packages, makes distributable packages, and uploads them to crates.io, the Rust community’s package registry.",
-                "version": 1,
-                "img": "images/rust.png"
-            }
-        ]
-    },
-    {
-        "name": "android",
+        "version": 1,
+        "img": "images/rust.png"
+      },
+      {
+        "name": "webAssembly",
+        "description": "WebAssembly is an open standard that defines a portable binary-code format for executable programs, and a corresponding textual assembly language, as well as interfaces for facilitating interactions between such programs and their host environment.",
+        "version": 1,
+        "img": "images/rust.png"
+      },
+      {
+        "name": "cargo",
+        "description": "Cargo is a package manager for Rust that enables you to build, test, and manage Rust projects. Cargo downloads your Rust package’s dependencies, compiles your packages, makes distributable packages, and uploads them to crates.io, the Rust community’s package registry.",
+        "version": 1,
+        "img": "images/rust.png"
+      },
+      {
+        "name": "commands",
+        "description": "Cargo is a package manager for Rust that enables you to build, test, and manage Rust projects. Cargo downloads your Rust package’s dependencies, compiles your packages, makes distributable packages, and uploads them to crates.io, the Rust community’s package registry.",
+        "version": 1,
+        "img": "images/rust.png"
+      }
+    ]
+  },
+  {
+    "name": "android",
+    "description": "Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets.",
+    "img": "images/android.png",
+    "subParts": [
+      {
+        "name": "core",
         "description": "Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets.",
-        "img": "images/android.png",
-        "subParts": [
-            {
-                "name": "core",
-                "description": "Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets.",
-                "version": 1,
-                "img": "images/android.png"
-            },
-            {
-                "name": "jetpack",
-                "description": "Android Jetpack is a set of libraries, tools and architectural guidance to help make it quick and easy to build great Android apps.",
-                "version": 1,
-                "img": "images/android.png"
-            },
-            {
-                "name": "kotlin",
-                "description": "Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library.",
-                "version": 1,
-                "img": "images/android.png"
-            }
-        ]
-    },
-    {
-        "name": "python",
+        "version": 1,
+        "img": "images/android.png"
+      },
+      {
+        "name": "jetpack",
+        "description": "Android Jetpack is a set of libraries, tools and architectural guidance to help make it quick and easy to build great Android apps.",
+        "version": 1,
+        "img": "images/android.png"
+      },
+      {
+        "name": "kotlin",
+        "description": "Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library.",
+        "version": 1,
+        "img": "images/android.png"
+      }
+    ]
+  },
+  {
+    "name": "python",
+    "description": "Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.",
+    "img": "images/python.png",
+    "subParts": [
+      {
+        "name": "core",
         "description": "Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.",
+        "version": 1,
+        "img": "images/python.png"
+      },
+      {
+        "name": "flask",
+        "description": "Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.",
+        "version": 1,
+        "img": "images/python.png"
+      },
+      {
+        "name": "data_science",
+        "description": "Data science is an inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured data.",
         "img": "images/python.png",
-        "subParts": [
-            {
-                "name": "core",
-                "description": "Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.",
-                "version": 1,
-                "img": "images/python.png"
-            },
-            {
-                "name": "flask",
-                "description": "Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.",
-                "version": 1,
-                "img": "images/python.png"
-            },
-            {
-                "name": "data_science",
-                "description": "Data science is an inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured data.",
-                "img": "images/python.png",
-                "version": 2
-            },
-            {
-                "name": "machine_learning",
-                "description": "Machine learning is the study of computer algorithms that improve automatically through experience and by the use of data.",
-                "img": "images/python.png",
-                "version": 1
-            }
-        ]
-    },
-    {
-        "name": "javaScript",
+        "version": 2
+      },
+      {
+        "name": "machine_learning",
+        "description": "Machine learning is the study of computer algorithms that improve automatically through experience and by the use of data.",
+        "img": "images/python.png",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "name": "javaScript",
+    "description": "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.",
+    "img": "images/javascript.png",
+    "subParts": [
+      {
+        "name": "core",
         "description": "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.",
-        "img": "images/javascript.png",
-        "subParts": [
-            {
-                "name": "core",
-                "description": "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.",
-                "version": 1,
-                "img": "images/javascript.png"
-            }
-        ]
-    },
-    {
-        "name": "dart",
+        "version": 1,
+        "img": "images/javascript.png"
+      },
+      {
+        "name": "react",
+        "description": "React is an open-source, front end, JavaScript library for building user interfaces or UI components.",
+        "version": 1,
+        "img": "images/javascript.png"
+      },
+      {
+        "name": "node",
+        "description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
+        "version": 1,
+        "img": "images/javascript.png"
+      },
+      {
+        "name": "express",
+        "description": "Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License.",
+        "version": 1,
+        "img": "images/javascript.png"
+      },
+      {
+        "name": "vue",
+        "description": "Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.",
+        "version": 1,
+        "img": "images/javascript.png"
+      },
+      {
+        "name": "angular",
+        "description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript.",
+        "version": 1,
+        "img": "images/javascript.png"
+      },
+      {
+        "name": "svelte",
+        "description": "Svelte is a free and open-source front end JavaScript framework that allows you to build web applications with a reactive programming model.",
+        "version": 1,
+        "img": "images/javascript.png"
+      },
+      {
+        "name": "nextjs",
+        "description": "Next.js is an open-source React front-end development web framework created by Vercel. It enables functionality such as server-side rendering and generating static websites for React based web applications.",
+        "version": 1,
+        "img": "images/javascript.png"
+      }
+    ]
+  },
+  {
+    "name": "dart",
+    "description": "Dart is a general-purpose programming language. It is class-based, object-oriented, and implements  high-level language features such as  function  closures,  first-class functions,  and  generic types.",
+    "img": "images/dart.png",
+    "subParts": [
+      {
+        "name": "core",
         "description": "Dart is a general-purpose programming language. It is class-based, object-oriented, and implements  high-level language features such as  function  closures,  first-class functions,  and  generic types.",
-        "img": "images/dart.png",
-        "subParts": [
-            {
-                "name": "core",
-                "description": "Dart is a general-purpose programming language. It is class-based, object-oriented, and implements  high-level language features such as  function  closures,  first-class functions,  and  generic types.",
-                "version": 1,
-                "img": "images/dart.png"
-            },
-            {
-                "name": "flutter",
-                "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, Mac, Windows, Google Fuchsia, and the web from a single codebase.",
-                "version": 1,
-                "img": "images/dart.png"
-            }
-        ]
-    },
-    {
-        "name": "php",
+        "version": 1,
+        "img": "images/dart.png"
+      },
+      {
+        "name": "flutter",
+        "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, Mac, Windows, Google Fuchsia, and the web from a single codebase.",
+        "version": 1,
+        "img": "images/dart.png"
+      }
+    ]
+  },
+  {
+    "name": "php",
+    "description": "PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994.",
+    "img": "images/php.png",
+    "subParts": [
+      {
+        "name": "core",
         "description": "PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994.",
-        "img": "images/php.png",
-        "subParts": [
-            {
-                "name": "core",
-                "description": "PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994.",
-                "version": 1,
-                "img": "images/php.png"
-            },
-            {
-                "name": "Laravel",
-                "description": "Laravel is a web application framework with expressive, elegant syntax. Laravel lets you quickly write powerful web applications with minimal code.",
-                "version": 1,
-                "img": "images/php.png"
-            }
-        ]
-    }
+        "version": 1,
+        "img": "images/php.png"
+      },
+      {
+        "name": "laravel",
+        "description": "Laravel is a web application framework with expressive, elegant syntax. Laravel lets you quickly write powerful web applications with minimal code.",
+        "version": 1,
+        "img": "images/php.png"
+      }
+    ]
+  },
+  {
+    "name": "elixir",
+    "description": "Elixir is a functional, concurrent, general-purpose programming language that runs on the Erlang virtual machine. Elixir builds on top of Erlang and shares the same abstractions for building distributed, fault-tolerant applications.",
+    "img": "images/elixir.png",
+    "subParts": [
+      {
+        "name": "core",
+        "description": "Elixir is a functional, concurrent, general-purpose programming language that runs on the Erlang virtual machine. Elixir builds on top of Erlang and shares the same abstractions for building distributed, fault-tolerant applications.",
+        "version": 1,
+        "img": "images/elixir.png"
+      },
+      {
+        "name": "phoenix",
+        "description": "Phoenix is a web development framework written in Elixir which implements the server-side Model-View-Controller pattern.",
+        "version": 1,
+        "img": "images/elixir.png"
+      }
+    ]
+  },
+  {
+    "name": "css",
+    "description": "CSS is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.",
+    "img": "images/css.png",
+    "subParts": [
+      {
+        "name": "core",
+        "description": "CSS is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.",
+        "version": 1,
+        "img": "images/css.png"
+      },
+      {
+        "name": "tailwind",
+        "description": "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.",
+        "version": 1,
+        "img": "images/css.png"
+      },
+      {
+        "name": "bootstrap",
+        "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
+        "version": 1,
+        "img": "images/css.png"
+      }
+    ]
+  },
+  {
+    "name": "typescript",
+    "description": "TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language.",
+    "version": 1,
+    "img": "images/typescript.png",
+    "subParts": [
+      {
+        "name": "core",
+        "description": "TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language.",
+        "version": 1,
+        "img": "images/typescript.png"
+      }
+    ]
+  },
+  {
+    "name": "makefile",
+    "description": "Makefile is a build script that defines a set of tasks to be executed. It is used to automate the process of building and managing dependencies in software projects.",
+    "version": 1,
+    "img": "images/makefile.png",
+    "subParts": [
+      {
+        "name": "core",
+        "description": "Makefile is a build script that defines a set of tasks to be executed. It is used to automate the process of building and managing dependencies in software projects.",
+        "version": 1,
+        "img": "images/makefile.png"
+      }
+    ]
+  }
 ]

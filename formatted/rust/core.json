@@ -6,6 +6,14 @@
                 {
                     "name": "Welcome to Rust",
                     "content": "rust/intro.md"
+                },
+                {
+                    "name": "Playground",
+                    "content": "https://play.rust-lang.org/"
+                },
+                {
+                    "name": "New Project",
+                    "content": "rust/commands/new-project.md"
                 }
             ]
         }
