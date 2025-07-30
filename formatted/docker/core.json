@@ -6,6 +6,10 @@
                 {
                     "name": "Welcome to Docker",
                     "content": "docker/intro.md"
+                },
+                {
+                    "name": "Docker Postgres",
+                    "content": "docker/postgres.md"
                 }
             ]
         }
