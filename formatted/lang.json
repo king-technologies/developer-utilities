@@ -1,8 +1,11 @@
 [
   {
+    "id": 1,
     "name": "git",
     "description": "Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.",
     "img": "images/git.png",
+    "category": "Version Control",
+    "popularity": 5,
     "subParts": [
       {
         "name": "core",
@@ -13,9 +16,12 @@
     ]
   },
   {
+    "id": 2,
     "name": "docker",
     "description": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files.",
     "img": "images/docker.png",
+    "category": "Containerization",
+    "popularity": 4,
     "subParts": [
       {
         "name": "core",
@@ -26,9 +32,12 @@
     ]
   },
   {
+    "id": 3,
     "name": "rust",
     "description": "Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references.",
     "img": "images/rust.png",
+    "category": "Programming Language",
+    "popularity": 3,
     "subParts": [
       {
         "name": "core",
@@ -57,9 +66,12 @@
     ]
   },
   {
+    "id": 4,
     "name": "android",
     "description": "Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets.",
     "img": "images/android.png",
+    "category": "Mobile OS",
+    "popularity": 4,
     "subParts": [
       {
         "name": "core",
@@ -82,9 +94,12 @@
     ]
   },
   {
+    "id": 5,
     "name": "python",
     "description": "Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.",
     "img": "images/python.png",
+    "category": "Programming Language",
+    "popularity": 5,
     "subParts": [
       {
         "name": "core",
@@ -113,9 +128,12 @@
     ]
   },
   {
+    "id": 6,
     "name": "javaScript",
     "description": "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.",
     "img": "images/javascript.png",
+    "category": "Programming Language",
+    "popularity": 4,
     "subParts": [
       {
         "name": "core",
@@ -143,7 +161,7 @@
       },
       {
         "name": "vue",
-        "description": "Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.",
+        "description": "Vue.js is an open-source model-view-viewmodel front end JavaScript framework for building user interfaces and single-page applications.",
         "version": 1,
         "img": "images/javascript.png"
       },
@@ -168,9 +186,12 @@
     ]
   },
   {
+    "id": 7,
     "name": "dart",
     "description": "Dart is a general-purpose programming language. It is class-based, object-oriented, and implements  high-level language features such as  function  closures,  first-class functions,  and  generic types.",
     "img": "images/dart.png",
+    "category": "Programming Language",
+    "popularity": 4,
     "subParts": [
       {
         "name": "core",
@@ -187,9 +208,12 @@
     ]
   },
   {
+    "id": 8,
     "name": "php",
     "description": "PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994.",
     "img": "images/php.png",
+    "category": "Programming Language",
+    "popularity": 4,
     "subParts": [
       {
         "name": "core",
@@ -206,8 +230,11 @@
     ]
   },
   {
+    "id": 9,
     "name": "elixir",
     "description": "Elixir is a functional, concurrent, general-purpose programming language that runs on the Erlang virtual machine. Elixir builds on top of Erlang and shares the same abstractions for building distributed, fault-tolerant applications.",
+    "category": "Programming Language",
+    "popularity": 4,
     "img": "images/elixir.png",
     "subParts": [
       {
@@ -225,9 +252,12 @@
     ]
   },
   {
+    "id": 10,
     "name": "css",
     "description": "CSS is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.",
     "img": "images/css.png",
+    "category": "Style Sheet Language",
+    "popularity": 5,
     "subParts": [
       {
         "name": "core",
@@ -250,10 +280,13 @@
     ]
   },
   {
+    "id": 11,
     "name": "typescript",
     "description": "TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language.",
     "version": 1,
     "img": "images/typescript.png",
+    "category": "Programming Language",
+    "popularity": 4,
     "subParts": [
       {
         "name": "core",
@@ -264,9 +297,12 @@
     ]
   },
   {
+    "id": 12,
     "name": "makefile",
     "description": "Makefile is a build script that defines a set of tasks to be executed. It is used to automate the process of building and managing dependencies in software projects.",
     "version": 1,
+    "category": "Build Tool",
+    "popularity": 4,
     "img": "images/makefile.png",
     "subParts": [
       {

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "AI & Machine Learning",
+    "description": "Artificial Intelligence and ML are transforming tech",
+    "img": "https://raw.githubusercontent.com/king-technologies/developer-utilities/main/formatted/assets/ai.png",
+    "category": "AI/ML",
+    "popularity": 95,
+    "subParts": [
+      {
+        "name": "core",
+        "description": "Artificial Intelligence and ML are transforming tech",
+        "version": 1,
+        "img": "https://raw.githubusercontent.com/king-technologies/developer-utilities/main/formatted/assets/ai.png"
+      }
+    ]
+  },
+  {
+    "name": "Flutter 3.0",
+    "description": "Cross-platform development made easy",
+    "img": "https://raw.githubusercontent.com/king-technologies/developer-utilities/main/formatted/assets/flutter.png",
+    "category": "Mobile",
+    "popularity": 90,
+    "subParts": [
+      {
+        "name": "core",
+        "description": "Cross-platform development made easy",
+        "version": 1,
+        "img": "https://raw.githubusercontent.com/king-technologies/developer-utilities/main/formatted/assets/flutter.png"
+      }
+    ]
+  },
+  {
+    "name": "Rust Programming",
+    "description": "Fast and memory-safe systems programming",
+    "img": "https://raw.githubusercontent.com/king-technologies/developer-utilities/main/formatted/assets/rust.png",
+    "category": "Systems",
+    "popularity": 85,
+    "subParts": [
+      {
+        "name": "core",
+        "description": "Fast and memory-safe systems programming",
+        "version": 1,
+        "img": "https://raw.githubusercontent.com/king-technologies/developer-utilities/main/formatted/assets/rust.png"
+      }
+    ]
+  },
+  {
+    "name": "Next.js 14",
+    "description": "React framework for production",
+    "img": "https://raw.githubusercontent.com/king-technologies/developer-utilities/main/formatted/assets/nextjs.png",
+    "category": "Web",
+    "popularity": 80,
+    "subParts": [
+      {
+        "name": "core",
+        "description": "React framework for production",
+        "version": 1,
+        "img": "https://raw.githubusercontent.com/king-technologies/developer-utilities/main/formatted/assets/nextjs.png"
+      }
+    ]
+  },
+  {
+    "name": "Docker & DevOps",
+    "description": "Containerization and deployment automation",
+    "img": "https://raw.githubusercontent.com/king-technologies/developer-utilities/main/formatted/assets/docker.png",
+    "category": "DevOps",
+    "popularity": 75,
+    "subParts": [
+      {
+        "name": "core",
+        "description": "Containerization and deployment automation",
+        "version": 1,
+        "img": "https://raw.githubusercontent.com/king-technologies/developer-utilities/main/formatted/assets/docker.png"
+      }
+    ]
+  }
+]
