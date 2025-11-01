@@ -1,0 +1,1389 @@
+[
+  {
+    "id": 1756491722596,
+    "topic": "android",
+    "subtopic": "kotlin",
+    "title": "tes",
+    "description": "asdf",
+    "questions": [
+      {
+        "id": "q1756491535767",
+        "type": "true-false",
+        "points": 1,
+        "prompt": "asdf",
+        "explanation": "asdf asdf asdf",
+        "answer": false
+      }
+    ],
+    "createdAt": "2025-08-29T18:22:02.596Z",
+    "updatedAt": "2025-08-29T18:22:02.596Z"
+  },
+  {
+    "id": 1756491800266,
+    "topic": "android",
+    "subtopic": "kotlin",
+    "title": "testing new quiz",
+    "description": "checking new data",
+    "questions": [
+      {
+        "id": "q1756491790277",
+        "type": "multiple-choice",
+        "points": 1,
+        "prompt": "asdf asdf asd",
+        "explanation": "asdf asdf",
+        "options": [
+          {
+            "id": "a",
+            "text": "asdf ",
+            "correct": "a"
+          },
+          {
+            "id": "b",
+            "text": "asdf ",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-08-29T18:23:20.266Z",
+    "updatedAt": "2025-08-29T18:23:20.266Z"
+  },
+  {
+    "id": 1756493451186,
+    "topic": "android",
+    "subtopic": "jetpack",
+    "title": "Android Jetpack Mastery Quiz",
+    "description": "Test your knowledge of Android Jetpack components and their best practices.",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "Which Jetpack component is primarily responsible for managing UI-related data in a lifecycle-aware manner, allowing it to survive configuration changes?",
+        "options": [
+          {
+            "id": "a",
+            "text": "ViewModel",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "LiveData",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Room",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Navigation Component",
+            "correct": false
+          }
+        ],
+        "explanation": "ViewModel is designed to store and manage UI-related data in a lifecycle-aware way. It survives configuration changes like screen rotations, preventing data loss and simplifying state management."
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "When using the Navigation Component, what is the primary purpose of a `NavGraph`?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To define the network requests for your application.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "To represent a collection of destinations and their associated actions.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "To manage background tasks and work requests.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "To handle asynchronous data observation.",
+            "correct": false
+          }
+        ],
+        "explanation": "A NavGraph is a fundamental part of the Navigation Component. It visually represents the flow of your application, defining all the possible destinations (like Activities or Fragments) and the actions that can transition between them."
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "Which Jetpack component provides a declarative way to build UIs by observing data changes and automatically updating the UI when the data changes?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Data Binding",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "View Binding",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Compose",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "WorkManager",
+            "correct": false
+          }
+        ],
+        "explanation": "Jetpack Compose is Android's modern toolkit for building native UIs. It's declarative, meaning you describe your UI's desired state, and Compose handles the rest, updating the UI efficiently when that state changes."
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the main advantage of using `LiveData` over a simple observable pattern (like RxJava) for UI data in Android?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It automatically handles network requests.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "It is lifecycle-aware, preventing memory leaks and unnecessary updates.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "It requires less boilerplate code for data persistence.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "It provides built-in support for dependency injection.",
+            "correct": false
+          }
+        ],
+        "explanation": "The key benefit of LiveData is its lifecycle awareness. It only updates observers that are in an active lifecycle state (started or resumed), thus preventing crashes and memory leaks when the UI is destroyed or in the background."
+      },
+      {
+        "id": "q5",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "When dealing with deferrable, guaranteed asynchronous execution of tasks, which Jetpack component is the recommended solution?",
+        "options": [
+          {
+            "id": "a",
+            "text": "ViewModel",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Room",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "WorkManager",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Paging Library",
+            "correct": false
+          }
+        ],
+        "explanation": "WorkManager is designed for deferrable, guaranteed background work. It handles constraints like network availability and battery status, ensuring your tasks are executed even if the app is closed or the device restarts."
+      }
+    ],
+    "createdAt": "2025-08-29T18:50:51.186Z",
+    "updatedAt": "2025-08-29T18:50:51.186Z"
+  },
+  {
+    "id": 1756493702827,
+    "topic": "rust",
+    "subtopic": "core",
+    "title": "Rust Core Concepts Quiz",
+    "description": "Test your knowledge of fundamental Rust programming concepts.",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the primary mechanism Rust uses to prevent memory errors like null pointer dereferences and data races?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Garbage Collection",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Reference Counting",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Ownership and Borrowing",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Manual Memory Management with `malloc` and `free`",
+            "correct": false
+          }
+        ],
+        "explanation": "Rust's ownership system, combined with borrowing rules, ensures memory safety at compile time without a garbage collector. This prevents common memory errors."
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "Which keyword is used to declare a variable in Rust that can be reassigned?",
+        "options": [
+          {
+            "id": "a",
+            "text": "let",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "const",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "static",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "mut",
+            "correct": true
+          }
+        ],
+        "explanation": "Variables in Rust are immutable by default. To make a variable mutable (reassignable), you must prefix its declaration with the `mut` keyword, typically used in conjunction with `let` (e.g., `let mut x = 5;`)."
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What does the `&` symbol signify when used before a variable name in Rust?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It creates a mutable reference.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "It creates an immutable reference (borrow).",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "It dereferences the variable.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "It moves ownership of the variable.",
+            "correct": false
+          }
+        ],
+        "explanation": "The `&` symbol creates an immutable reference, allowing you to access data without taking ownership. This is known as borrowing."
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "Which of the following is NOT a primitive data type in Rust?",
+        "options": [
+          {
+            "id": "a",
+            "text": "i32",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "f64",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "bool",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "String",
+            "correct": true
+          }
+        ],
+        "explanation": "`String` is a heap-allocated, growable string type. `i32` (signed 32-bit integer), `f64` (64-bit floating-point), and `bool` (boolean) are primitive types."
+      },
+      {
+        "id": "q5",
+        "type": "multiple-choice",
+        "points": 3,
+        "prompt": "Consider the following code snippet:\n\nrust\nlet s1 = String::from(\"hello\");\nlet s2 = s1;\n\nprintln!(\"{}\", s1);\n\n\nWhat will happen when this code is compiled?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It will print 'hello'.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "It will cause a compile-time error because s1 is moved.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "It will cause a runtime panic.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "It will print 'hello' twice.",
+            "correct": false
+          }
+        ],
+        "explanation": "When `s1` is assigned to `s2`, `String` (which is a heap-allocated type) is moved. Ownership is transferred to `s2`, making `s1` invalid. Accessing `s1` after the move results in a compile-time error."
+      },
+      {
+        "id": "q6",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the purpose of the `clone()` method in Rust?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To create a mutable reference.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "To move ownership of a value.",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "To create a deep copy of a value.",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "To discard a value.",
+            "correct": false
+          }
+        ],
+        "explanation": "`clone()` is used to create a new, independent copy of a value. For types like `String` or `Vec`, this involves allocating new memory on the heap and copying the data."
+      },
+      {
+        "id": "q7",
+        "type": "multiple-choice",
+        "points": 3,
+        "prompt": "Which of the following Rust constructs is used to define custom data types that can hold different variants?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Structs",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Enums",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Traits",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Impl blocks",
+            "correct": false
+          }
+        ],
+        "explanation": "Enums (enumerations) allow you to define a type that can be one of several possible variants. This is powerful for representing states or different kinds of data."
+      },
+      {
+        "id": "q8",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the `match` expression in Rust primarily used for?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Looping a specific number of times.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Conditional execution based on equality.",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Pattern matching and executing code based on the structure of data.",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Defining mutable variables.",
+            "correct": false
+          }
+        ],
+        "explanation": "The `match` expression is Rust's powerful way to handle control flow based on patterns. It's exhaustive, meaning you must cover all possible cases, contributing to Rust's safety."
+      },
+      {
+        "id": "q9",
+        "type": "multiple-choice",
+        "points": 3,
+        "prompt": "Consider this code:\n\nrust\nfn takes_ownership(some_string: String) {\n    println!(\"{}\", some_string);\n}\n\nfn main() {\n    let s = String::from(\"hello\");\n    takes_ownership(s);\n    // println!(\"{}\", s);\n}\n\n\nIf the commented-out `println!` were uncommented, what would happen?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It would print 'hello'.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "It would cause a compile-time error because `s` was moved into `takes_ownership`.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "It would cause a runtime panic.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "It would print the string twice.",
+            "correct": false
+          }
+        ],
+        "explanation": "Functions that take ownership of a `String` (or other heap-allocated types) transfer ownership. After `takes_ownership(s)`, `s` is no longer valid, leading to a compile-time error if accessed."
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the primary purpose of a `struct` in Rust?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To define a function that can be called.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "To create a new type that groups together related data.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "To implement traits for existing types.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "To handle error propagation.",
+            "correct": false
+          }
+        ],
+        "explanation": "Structs are used to create custom data types by grouping fields together. They are fundamental for organizing data in a meaningful way."
+      },
+      {
+        "id": "q11",
+        "type": "multiple-choice",
+        "points": 3,
+        "prompt": "What does the `&mut` symbol represent in Rust?",
+        "options": [
+          {
+            "id": "a",
+            "text": "An immutable reference to a mutable value.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A mutable reference to an immutable value.",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A mutable reference to a mutable value.",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "A move operation.",
+            "correct": false
+          }
+        ],
+        "explanation": "`&mut` creates a mutable reference, allowing you to modify the data it points to. Rust enforces a strict rule: you can have either one mutable reference OR any number of immutable references to a particular piece of data, but not both simultaneously."
+      },
+      {
+        "id": "q12",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the role of `crates.io` in the Rust ecosystem?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It's the official Rust compiler.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "It's a repository for Rust packages (crates) and their dependencies.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "It's a tool for debugging Rust code.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "It's a website for learning Rust.",
+            "correct": false
+          }
+        ],
+        "explanation": "`crates.io` is the official registry for Rust packages, often referred to as crates. It's where developers publish and discover libraries and tools for their projects."
+      },
+      {
+        "id": "q13",
+        "type": "multiple-choice",
+        "points": 3,
+        "prompt": "Which of the following is the correct way to create a `Vec<i32>` and add the number 10 to it?",
+        "options": [
+          {
+            "id": "a",
+            "text": "let mut v: Vec<i32>; v.push(10);",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "let mut v = Vec::new(); v.push(10);",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "let v = vec![10];",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "let v = new Vec<i32>(); v.add(10);",
+            "correct": false
+          }
+        ],
+        "explanation": "`Vec::new()` creates an empty vector. To add elements, you use the `push()` method. `vec![10]` is also a valid way to create a vector with initial elements, but the question asks for creating and then adding."
+      },
+      {
+        "id": "q14",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the purpose of the `impl` keyword in Rust?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To define a new generic type.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "To implement methods for a struct or enum, or to implement traits.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "To declare a mutable variable.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "To create a new thread.",
+            "correct": false
+          }
+        ],
+        "explanation": "The `impl` keyword is used to define associated functions and methods for a type (like structs and enums) or to implement traits for a type."
+      },
+      {
+        "id": "q15",
+        "type": "multiple-choice",
+        "points": 3,
+        "prompt": "Consider this code:\n\nrust\nfn calculate_length(s: &str) -> usize {\n    s.len()\n}\n\nfn main() {\n    let s1 = String::from(\"hello\");\n    let len = calculate_length(&s1);\n    println!(\"The length of '{}' is {}.\", s1, len);\n}\n\n\nWhat does `&s1` do in this context?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It moves ownership of `s1` to the `calculate_length` function.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "It creates a new `String` from `s1`.",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "It creates an immutable reference to `s1`, allowing the function to borrow it.",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "It dereferences `s1`.",
+            "correct": false
+          }
+        ],
+        "explanation": "Passing `&s1` creates an immutable reference to the `String` `s1`. This allows the `calculate_length` function to read the length of the string without taking ownership, ensuring `s1` remains valid in `main`."
+      },
+      {
+        "id": "q16",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the `Copy` trait in Rust used for?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To allow a type to be cloned via the `clone()` method.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "To indicate that a type can be copied implicitly by bitwise copy.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "To mark a variable as mutable.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "To enable automatic memory deallocation.",
+            "correct": false
+          }
+        ],
+        "explanation": "Types that implement the `Copy` trait are copied by bitwise copy when assigned or passed to functions, rather than moved. Primitive types like integers and booleans implement `Copy`."
+      },
+      {
+        "id": "q17",
+        "type": "multiple-choice",
+        "points": 3,
+        "prompt": "Which of the following is NOT a valid way to handle potential errors in Rust?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Using `Result<T, E>` and pattern matching with `match`.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Using `Option<T>` and the `unwrap()` method.",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Ignoring errors by not checking the return value of fallible functions.",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Using the `?` operator to propagate errors.",
+            "correct": false
+          }
+        ],
+        "explanation": "Ignoring errors is generally bad practice and defeats the purpose of Rust's robust error handling. `Result` and `Option` are designed for explicit error management, and `unwrap()` (while convenient) should be used with caution as it panics on `None` or `Err`."
+      },
+      {
+        "id": "q18",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the purpose of a `trait` in Rust?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To define a single, concrete data structure.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "To define a set of behaviors or capabilities that a type can implement.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "To manage memory allocation and deallocation.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "To create a new programming language.",
+            "correct": false
+          }
+        ],
+        "explanation": "Traits are Rust's way of defining shared behavior. They are similar to interfaces in other languages and allow you to define methods that different types can implement."
+      },
+      {
+        "id": "q19",
+        "type": "multiple-choice",
+        "points": 3,
+        "prompt": "What does the `Drop` trait in Rust allow you to do?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To create a new thread.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "To define custom logic that runs when a value goes out of scope.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "To make a type immutable.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "To implement a new data structure.",
+            "correct": false
+          }
+        ],
+        "explanation": "The `Drop` trait enables you to define custom cleanup code that is executed when a value is about to be dropped from memory. This is crucial for managing resources like file handles or network connections."
+      },
+      {
+        "id": "q20",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the primary benefit of Rust's ownership system for concurrent programming?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It requires explicit locking for all shared data.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "It eliminates data races at compile time.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "It automatically detects and prevents deadlocks.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "It allows multiple threads to freely mutate shared data.",
+            "correct": false
+          }
+        ],
+        "explanation": "Rust's ownership and borrowing rules, particularly the rule that only one mutable reference or multiple immutable references can exist at a time, prevent data races in concurrent code without needing runtime checks or garbage collection."
+      }
+    ],
+    "createdAt": "2025-08-29T18:55:02.827Z",
+    "updatedAt": "2025-08-29T18:55:02.827Z"
+  },
+  {
+    "id": 1756496920645,
+    "topic": "rust",
+    "subtopic": "cargo",
+    "title": "Rust Cargo Mastery Quiz",
+    "description": "Test your knowledge of Rust's build system and package manager, Cargo. This quiz focuses on common commands, configuration, and concepts.",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the primary purpose of Cargo in Rust?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To manage memory allocation and deallocation.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "To compile, build, test, and manage dependencies for Rust projects.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "To provide a graphical user interface for writing Rust code.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "To automatically generate documentation from Rust code.",
+            "correct": false
+          }
+        ],
+        "explanation": "Cargo is Rust's official package manager and build system. It handles project creation, dependency management, compilation, testing, and more, simplifying the development workflow."
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "Which command is used to create a new Rust project with Cargo?",
+        "options": [
+          {
+            "id": "a",
+            "text": "cargo new my_project",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "rustc init my_project",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "cargo create my_project",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "new_rust_project my_project",
+            "correct": false
+          }
+        ],
+        "explanation": "`cargo new` is the standard command to initialize a new Rust project. It creates a directory with a basic project structure, including `Cargo.toml` and a `src` directory."
+      },
+      {
+        "id": "q3",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What does the `Cargo.toml` file primarily contain?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The source code of the project.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Build configuration, project metadata, and dependencies.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Runtime configuration settings for the application.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Unit tests and integration tests for the project.",
+            "correct": false
+          }
+        ],
+        "explanation": "`Cargo.toml` is the manifest file for a Rust project. It describes the project's metadata, dependencies, features, and build profiles."
+      },
+      {
+        "id": "q4",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "Which Cargo command compiles your project without running it?",
+        "options": [
+          {
+            "id": "a",
+            "text": "cargo run",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "cargo test",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "cargo build",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "cargo compile",
+            "correct": false
+          }
+        ],
+        "explanation": "`cargo build` compiles your project and its dependencies. The compiled binary will be found in the `target/debug` directory by default."
+      },
+      {
+        "id": "q5",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "To run your Rust project, which Cargo command do you use?",
+        "options": [
+          {
+            "id": "a",
+            "text": "cargo execute",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "cargo run",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "cargo start",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "cargo build && ./target/debug/your_project",
+            "correct": false
+          }
+        ],
+        "explanation": "`cargo run` first compiles your project (if necessary) and then executes the resulting binary. It's a convenient shortcut for `cargo build` followed by running the executable."
+      },
+      {
+        "id": "q6",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the purpose of the `[dependencies]` section in `Cargo.toml`?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To list the project's authors.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "To specify external libraries (crates) that your project needs.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "To define build profiles like 'debug' and 'release'.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "To configure project licensing information.",
+            "correct": false
+          }
+        ],
+        "explanation": "The `[dependencies]` section is where you declare the external crates your project relies on. Cargo will automatically download and compile these dependencies."
+      },
+      {
+        "id": "q7",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "Which Cargo command is used to run your project's tests?",
+        "options": [
+          {
+            "id": "a",
+            "text": "cargo check",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "cargo bench",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "cargo test",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "cargo verify",
+            "correct": false
+          }
+        ],
+        "explanation": "`cargo test` compiles and runs all tests defined in your project, including unit tests and integration tests."
+      },
+      {
+        "id": "q8",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What does `cargo check` do?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It compiles the project and runs all tests.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "It compiles the project and produces an executable.",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "It checks the code for compile-time errors without generating an executable.",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "It analyzes code for potential security vulnerabilities.",
+            "correct": false
+          }
+        ],
+        "explanation": "`cargo check` is a faster way to check your code for errors. It performs all the compile-time checks but skips the code generation step, making it quicker for frequent checks during development."
+      },
+      {
+        "id": "q9",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "When you build a project with `cargo build --release`, where are the optimized binaries placed?",
+        "options": [
+          {
+            "id": "a",
+            "text": "target/debug",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "target/release",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "bin/",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "build/release",
+            "correct": false
+          }
+        ],
+        "explanation": "The `--release` flag tells Cargo to perform optimizations, resulting in a faster executable. These optimized binaries are placed in the `target/release` directory."
+      },
+      {
+        "id": "q10",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "How do you specify a specific version of a dependency in `Cargo.toml`?",
+        "options": [
+          {
+            "id": "a",
+            "text": "[dependencies]\nmy_crate = \"*\"",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "[dependencies]\nmy_crate = \"1.2.3\"",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "[dependencies]\nmy_crate = { version = \"1.2.3\" }",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "[dependencies]\nmy_crate = \"~1.2.3\"",
+            "correct": false
+          }
+        ],
+        "explanation": "You can specify an exact version using `\"1.2.3\"` or using a more structured format like `{ version = \"1.2.3\" }`. The `~` syntax is for compatible versions, but the exact version syntax is also common."
+      },
+      {
+        "id": "q11",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the purpose of the `src/main.rs` file in a typical Cargo project?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It contains library code that can be reused.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "It is the entry point for an executable binary project.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "It holds all the project's dependencies.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "It is used for generating documentation.",
+            "correct": false
+          }
+        ],
+        "explanation": "In a binary crate, `src/main.rs` contains the `main` function, which is the entry point of the executable program. For library crates, the entry point is typically `src/lib.rs`."
+      },
+      {
+        "id": "q12",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What does `cargo update` do?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It compiles the project.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "It fetches the latest versions of dependencies allowed by the `Cargo.toml` constraints.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "It runs all the project's tests.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "It removes unused dependencies.",
+            "correct": false
+          }
+        ],
+        "explanation": "`cargo update` checks for newer versions of your dependencies that satisfy the version requirements in `Cargo.toml` and updates the `Cargo.lock` file accordingly."
+      },
+      {
+        "id": "q13",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "Which Cargo command is used to add a new dependency to your project and update `Cargo.toml`?",
+        "options": [
+          {
+            "id": "a",
+            "text": "cargo add my_crate",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "cargo install my_crate",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "cargo get my_crate",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "cargo fetch my_crate",
+            "correct": false
+          }
+        ],
+        "explanation": "`cargo add <crate_name>` is a convenient command to add a dependency to your `Cargo.toml` file and also update your `Cargo.lock` file."
+      },
+      {
+        "id": "q14",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the primary role of the `Cargo.lock` file?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It contains the source code of all dependencies.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "It ensures reproducible builds by locking down the exact versions of all dependencies.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "It specifies the build profile for the project.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "It lists the project's features.",
+            "correct": false
+          }
+        ],
+        "explanation": "`Cargo.lock` records the exact versions of all dependencies and their transitive dependencies that were used during a successful build. This guarantees that anyone building the project will use the same dependency versions, ensuring reproducibility."
+      },
+      {
+        "id": "q15",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "How can you specify a dependency that is a local path in `Cargo.toml`?",
+        "options": [
+          {
+            "id": "a",
+            "text": "[dependencies]\nmy_crate = \"path = \"../my_crate\"\"",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "[dependencies]\nmy_crate = { path = \"../my_crate\" }",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "[dependencies]\nmy_crate = \"file://../my_crate\"",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "[dependencies]\nmy_crate = \"../my_crate\"",
+            "correct": false
+          }
+        ],
+        "explanation": "To use a local crate as a dependency, you specify its path using the `path` key within a dependency specification, like `{ path = \"../my_crate\" }`."
+      },
+      {
+        "id": "q16",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is a 'workspace' in Cargo?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A single, large Rust project.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A way to manage multiple related Rust projects together.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "A virtual environment for Rust development.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "A tool for automatically generating code.",
+            "correct": false
+          }
+        ],
+        "explanation": "Cargo workspaces allow you to manage multiple Rust packages (crates) within a single repository. This is useful for organizing related libraries and applications."
+      },
+      {
+        "id": "q17",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "Which Cargo command is used to publish a crate to crates.io?",
+        "options": [
+          {
+            "id": "a",
+            "text": "cargo push",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "cargo publish",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "cargo upload",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "cargo submit",
+            "correct": false
+          }
+        ],
+        "explanation": "`cargo publish` is used to upload your crate to the official Rust package registry, crates.io, making it available for others to use."
+      },
+      {
+        "id": "q18",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is the purpose of the `[features]` section in `Cargo.toml`?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To list optional dependencies.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "To define optional functionalities of a crate that can be enabled or disabled by users.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "To specify build targets for different operating systems.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "To set environment variables for the build process.",
+            "correct": false
+          }
+        ],
+        "explanation": "Features allow a crate to offer optional functionality. Users can then choose to enable specific features when depending on the crate, which can reduce build times and binary size."
+      },
+      {
+        "id": "q19",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "How do you build a crate for a specific target platform using Cargo?",
+        "options": [
+          {
+            "id": "a",
+            "text": "cargo build --target=<target-triple>",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "cargo build --platform=<platform-name>",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "cargo build --arch=<architecture>",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "cargo build --os=<operating-system>",
+            "correct": false
+          }
+        ],
+        "explanation": "The `--target` flag followed by a target triple (e.g., `x86_64-unknown-linux-gnu`) allows you to cross-compile your project for a different platform than the one you are currently building on."
+      },
+      {
+        "id": "q20",
+        "type": "multiple-choice",
+        "points": 2,
+        "prompt": "What is `rustfmt` and how does it relate to Cargo?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A tool for linting Rust code; `cargo lint` runs it.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A tool for formatting Rust code according to style guidelines; can be run with `cargo fmt`.",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "A tool for profiling Rust code; `cargo profile` runs it.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "A tool for generating documentation; `cargo doc` runs it.",
+            "correct": false
+          }
+        ],
+        "explanation": "Rustfmt is the official Rust code formatter. `cargo fmt` is the Cargo command that invokes rustfmt to format your project's code, ensuring consistent style."
+      }
+    ],
+    "createdAt": "2025-08-29T19:48:40.645Z",
+    "updatedAt": "2025-08-29T19:48:40.645Z"
+  }
+]
